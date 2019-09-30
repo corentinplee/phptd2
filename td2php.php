@@ -2,12 +2,12 @@
 <html><body>
 <form method="post" action="protect.php">
 
-       Nom : <input type="text" name="nom" size="12"><br>
+    Nom : <input type="text" name="nom" size="12" ><br>
     Prénom : <input type="text" name="prenom" size="12"><br>
     Tél : <input type="text" name="tel" size="12"><br>
     Votre email : <input type="text" name="email" size="20"><br>
     Mot de passe : <input type="password" name="password" size="12"><br>
-    Verif.Mot de passe : <input type="password" name="verif password" size="12"><br>
+    Verif.Mot de passe : <input type="password" name="verifpassword" size="12"><br>
 
 
 
@@ -22,5 +22,5 @@
         <option value="op5">Autres</option>
     </select><br>
     <input name="conditions générales d'utilisation" type="checkbox" id="cgdu" value="agree" checked> Conditions générales d'utilisation<br>
-    <input type="submit" value="OK"><br>
+    <input type="submit" value="ok" name="action"<br>
 </form></body></html>
